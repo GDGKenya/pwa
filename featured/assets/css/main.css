@@ -2,9 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
 /*
-	Lens by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Maye Edwin
 */
 
 /* Reset */
@@ -85,8 +83,8 @@
 	}
 
 	html, body {
-		background-color: #101010;
-		overflow: hidden;
+		background-image: url("images/gdgfull1.jpg");
+		overflow: none;
 	}
 
 /* Type */

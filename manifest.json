@@ -1,0 +1,51 @@
+{
+ "background_color": "#fff",
+ "display": "standalone",
+ "theme_color": "#fff",
+    
+  "short_name": "GDG Kenya",
+  "name": "GDG Kenya",
+  "icons": [
+    {
+      "src": "images/touch/gdg48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/touch/gdg72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "images/touch/gdg96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+    ,
+    {
+      "src": "images/touch/gdg144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+    ,
+    {
+      "src": "images/touch/gdg168.png",
+      "type": "image/png",
+      "sizes": "168x168"
+    }
+    ,
+    {
+      "src": "images/touch/gdg196.png",
+      "type": "image/png",
+      "sizes": "196x196"
+    }
+    ,
+    {
+      "src": "images/touch/gdg256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+    
+  ],
+  "start_url": "index.html?launcher=true"
+}

@@ -1,35 +1,26 @@
-[debug] [2018-04-11T05:19:54.442Z] ----------------------------------------------------------------------
-[debug] [2018-04-11T05:19:54.473Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Edwin\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
-[debug] [2018-04-11T05:19:54.474Z] CLI Version:   3.18.1
-[debug] [2018-04-11T05:19:54.474Z] Platform:      win32
-[debug] [2018-04-11T05:19:54.474Z] Node Version:  v9.2.0
-[debug] [2018-04-11T05:19:54.478Z] Time:          Wed Apr 11 2018 08:19:54 GMT+0300 (E. Africa Standard Time)
-[debug] [2018-04-11T05:19:54.478Z] ----------------------------------------------------------------------
+[debug] [2018-04-13T10:58:09.007Z] ----------------------------------------------------------------------
+[debug] [2018-04-13T10:58:09.010Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Edwin\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-04-13T10:58:09.011Z] CLI Version:   3.18.1
+[debug] [2018-04-13T10:58:09.011Z] Platform:      win32
+[debug] [2018-04-13T10:58:09.011Z] Node Version:  v9.2.0
+[debug] [2018-04-13T10:58:09.011Z] Time:          Fri Apr 13 2018 13:58:09 GMT+0300 (E. Africa Standard Time)
+[debug] [2018-04-13T10:58:09.011Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-04-11T05:19:54.557Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-04-11T05:19:54.558Z] > authorizing via signed-in user
-[debug] [2018-04-11T05:19:54.560Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-04-11T05:19:54.560Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- { refresh_token: '1/lbM3AV8s-ylgjKr6tTLKP65P0hmQcgjIn5Knjlln4zo',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Wed Apr 11 2018 08:19:54 GMT+0300 (E. Africa Standard Time)
-[debug] [2018-04-11T05:19:57.736Z] <<< HTTP RESPONSE 200
-[debug] [2018-04-11T05:19:57.744Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/gdgkenya  
+[debug] [2018-04-13T10:58:09.052Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-13T10:58:09.052Z] > authorizing via signed-in user
+[debug] [2018-04-13T10:58:09.055Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/gdgkenya  
   
- Wed Apr 11 2018 08:19:57 GMT+0300 (E. Africa Standard Time)
-[debug] [2018-04-11T05:19:59.263Z] <<< HTTP RESPONSE 200
-[debug] [2018-04-11T05:19:59.263Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/gdgkenya/tokens  
+ Fri Apr 13 2018 13:58:09 GMT+0300 (E. Africa Standard Time)
+[debug] [2018-04-13T10:58:10.747Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-13T10:58:10.749Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/gdgkenya/tokens  
   
- Wed Apr 11 2018 08:19:59 GMT+0300 (E. Africa Standard Time)
-[debug] [2018-04-11T05:20:01.747Z] <<< HTTP RESPONSE 200
+ Fri Apr 13 2018 13:58:10 GMT+0300 (E. Africa Standard Time)
+[debug] [2018-04-13T10:58:11.795Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Deploying to 'gdgkenya'...
 [info] 
 [info] i  deploying hosting
 [info] i  hosting: preparing / directory for upload...
-[debug] [2018-04-11T05:20:25.454Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/gdgkenya/uploads/-L9n8XncNj0sP0LkYsAf?fileCount=275&message=  
+[debug] [2018-04-13T10:58:37.437Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/gdgkenya/uploads/-L9ye7ycu-rlfC_Q6cWY?fileCount=281&message=  
   
- Wed Apr 11 2018 08:20:25 GMT+0300 (E. Africa Standard Time)
+ Fri Apr 13 2018 13:58:37 GMT+0300 (E. Africa Standard Time)

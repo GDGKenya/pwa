@@ -2,4 +2,4 @@
 
 > To be upadated soon on how to use it for your own GDG Country PWA.
 
-A project [PWA Fire](https://pwafire.org/developer) made.
+A Project [PWA Fire](https://pwafire.org/developer) made.

@@ -236,7 +236,7 @@
 
 .card.hovercard .info .desc {
   overflow: hidden;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   color: #737373;
   text-overflow: ellipsis;
@@ -289,4 +289,21 @@
    
   }
   
+}
+/*  define for pixel-device ratio */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-device-pixel-ratio: 3/2), 
+only screen and (min-device-pixel-ratio: 1.5) {
+	.card.hovercard {
+		position: relative;
+		padding-top: 0;
+		overflow: hidden;
+		text-align: center;
+		background-color: rgba(214, 224, 226, 0.2);
+		margin: 0px;
+		width: 100%;
+		box-shadow: 0 1.5px 0 0 #e5e5e5;
+	}
+
 }

@@ -10,11 +10,11 @@ self.addEventListener('fetch', function(event) {
                     cache.put(event.request, networkResponse.clone());
                 }
                 return networkResponse;
-            }, function (e) {
+            }, function (event) {
                 // rejected promise - just ignore it, we're offline
-                console.log("Error in fetch()", e);
+                console.log("Error in fetch()", event);
                 
-                 e.waitUntil(
+                 event.waitUntil(
     caches.open('cache').then(function(cache) {
       return cache.addAll([
     '/',
@@ -48,17 +48,14 @@ self.addEventListener('fetch', function(event) {
         '/manifest.js',
         '/featured/index.html',
         '/featured/css/',
-        '/featured/images/',
+        '/featured/images/fulls/',
        'https://platform.twitter.com/widgets.js',
        'https://platform.linkedin.com/badges/js/profile.js',
        'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.11&appId=128193484441134',
        'https://buttons.github.io/buttons.js'
-       
-        
       ]);
     })
-  );
-               
+  );    
             });
 
             // respond from the cache, or the network

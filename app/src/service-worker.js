@@ -44,7 +44,6 @@ self.addEventListener('fetch', function(event) {
         '/directory/leads/',
         '/directory/leads/bannergdg.png',
         '/directory/leads/mayeedwin.png',
-        '/sw.js/',
         '/manifest.js',
         '/featured/index.html',
         '/featured/css/',

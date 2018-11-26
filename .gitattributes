@@ -1,4 +1,4 @@
-assets/* linguist-vendored
-index.html/* linguist-vendored
-featured/* linguist-vendored
-directory/* linguist-vendored
+app/src/assets/* linguist-vendored
+app/src/index.html/* linguist-vendored
+app/src/featured/* linguist-vendored
+app/src/directory/* linguist-vendored
